@@ -1,0 +1,173 @@
+ncsim(64) 15.20-s086
+Linux 3.10.0-1160.49.1.el7.x86_64 #1 SMP Tue Nov 30 15:51:32 UTC 2021 x86_64
+CPU cores: 40
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+USER=spadsp_112
+LOGNAME=spadsp_112
+HOME=/Si2_RAID-1/si2topic/112/spadsp_112
+PATH=/usr/INCISIVE15/tools/bin/64bit:/usr/INCISIVE15/tools/bin/64bit:/usr/INCISIVE15/tools/bin/64bit:/Si2_RAID-1/EDA/synopsys/lc_2016.12_linux/bin:/usr/pt/bin:/usr/synopsys/bin:/Si2_RAID-1/EDA/cadence/ic6.17.709_linux/bin:/misc/Si2_RAID-1/EDA/mentor/calibre_2013.3_28.19_linux/calibre_2013.1_14.11_linux/bin:/usr/calibre/bin:/usr/verdi/bin:/usr/verdi/nLint/bin:/usr/mmsim15/tools/bin:/usr/INNOVUS17/tools/bin:/usr/ext17/tools/bin:/usr/GENUS17/tools/bin:/usr/hspice/hspice/bin:/usr/hspice/hspice/linux:/usr/sx/bin:/usr/INCISIVE15/tools/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+MAIL=/var/spool/mail/spadsp_112
+SHELL=/bin/tcsh
+SSH_CLIENT=140.113.212.31 32877 430
+SSH_CONNECTION=140.113.212.31 32877 140.113.212.17 430
+SSH_TTY=/dev/pts/0
+TERM=xterm-256color
+DISPLAY=localhost:10.0
+XDG_SESSION_ID=24
+XDG_RUNTIME_DIR=/run/user/1414
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+SHLVL=1
+PWD=/Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL
+GROUP=si2
+HOST=cad1
+REMOTEHOST=soldier
+HOSTNAME=cad1
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LANG=C
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+LD_LIBRARY_PATH=/usr/verdi/share/PLI/IUS/LINUX64:/usr/hspice/hspice/linux:/usr/INCISIVE15/tools/lib/64bit:/usr/INCISIVE15/tools/lib:/usr/lib
+SHLIB_PATH=/usr/hspice/hspice/linux:/usr/INCISIVE15/tools/lib:/usr/lib
+MANPATH=/usr/share/man:/usr/man:/usr/X11R6/man:/usr/lib/perl5/man:/usr/kerberos/man:/usr/local/man
+NNTPSERVER=netnews.ee.nctu.edu.tw
+EDITOR=gedit
+DESIGNWARE_HOME=/Si2_RAID-1/EDA/synopsys/dw_home/cur/
+LC_CTYPE=iso_8859_1
+LC_ALL=C
+TZ=Asia/Taipei
+LM_LICENSE_FILE=26585@lshc:5280@lshc:1717@lsnctu
+HSP_HOME=/usr/hspice/hspice
+LIBPATH=/usr/hspice/hspice/linux
+CDSHOME=/usr/cadence
+OA_HOME=/Si2_RAID-1/EDA/cadence/ic6.17.709_linux/oa/
+TURBO_LIBS=artisan_l artisan_u tsmc_l tsmc_u faraday_l faraday_u
+TURBO_LIBPATHS=/usr/verdi/share/symlib/32
+MGC_HOME=/usr/calibre
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+_IRUNROOT_=/usr/INCISIVE15/tools
+CDS_ARCH=lnx86
+NCRUNMODE=irun:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/INCISIVE15/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=irun
+argv[1]=-f
+argv[2]=ncvlog.f
+argv[3]=-sv
+argv[4]=tb.sv
+argv[5]=+define+RTL
+argv[6]=+notimingchecks
+argv[7]=+debug
+argv[8]=geofence.v
+argv[9]=+access+r
+argv[10]=+nc64bit
+argv[11]=+loadpli1=lp_pli.so:lp_bootstrap
+argv[12]=+access+r
+argv[13]=+neg_tchk
+89 profile - 100
+          CPU/Mem usage: 0.060 sys,  0.050 user,  106.77M sys,  0.00M vm
+90 VC callback profile - scalar:0 vector:0
+91 Fri Mar 10 19:05:53 2023
+92 pliAppInit
+93 FSDB_GATE is disabled.
+94 Enable Parallel Dumping.
+95 pliAppMiscSet: New Sim Round
+96 pliEntryInit
+97 LIBSSCORE=found /usr/verdi/share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+98 argv[0]: geofence.fsdb
+99 FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+100 (C) 1996 - 2019 by Synopsys, Inc.
+101 sps_call_fsdbDumpfile at 0 : /Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL/tb.sv(38)
+102 argv[0]: geofence.fsdb
+103 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+104 *Verdi* : Create FSDB file 'geofence.fsdb'
+105 sps_call_fsdbDumpvars at 0 : /Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL/tb.sv(39)
+106 *Verdi* : Begin traversing the scopes, layer (0).
+107 *Verdi* : End of traversing.
+108 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.060 user,  194.36M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  4.17M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  4.17M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  4.17M sys,  0.00M vm
+
+          Count usage: 32 var,  32 idcode,  32 callback
+                 incr: 32 var,  32 idcode,  32 callback
+                 accu: 32 var,  32 idcode,  32 callback
+            accu incr: 32 var,  32 idcode,  32 callback
+109 VC callback profile - scalar:0 vector:0
+110 Fri Mar 10 19:05:53 2023
+111 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.060 sys,  0.060 user,  195.42M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  5.23M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 32 var,  32 idcode,  32 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 32 var,  32 idcode,  32 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+112 VC callback profile - scalar:11 vector:21
+113 Fri Mar 10 19:05:53 2023
+114 sps_call_fsdbDumpMDA at 0 : /Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL/tb.sv(40)
+115 *Verdi* : Begin traversing the MDAs, layer (0).
+116 *Verdi* : Enable +mda and +packedmda dumping.
+117 *Verdi* : End of traversing the MDAs.
+118 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.070 sys,  0.060 user,  195.42M sys,  0.00M vm
+                   incr: 0.010 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.010 sys,  0.000 user,  0.00M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 64 var,  64 idcode,  64 callback
+                 incr: 32 var,  32 idcode,  32 callback
+                 accu: 32 var,  32 idcode,  32 callback
+            accu incr: 32 var,  32 idcode,  32 callback
+119 VC callback profile - scalar:11 vector:21
+120 Fri Mar 10 19:05:53 2023
+121 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.070 sys,  0.060 user,  195.42M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.010 sys,  0.000 user,  0.00M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 64 var,  64 idcode,  64 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 32 var,  32 idcode,  32 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+122 VC callback profile - scalar:11 vector:53
+123 Fri Mar 10 19:05:53 2023
+124 End of simulation at 6216000
+125 VC callback profile - scalar:8841 vector:19844
+126 Fri Mar 10 19:05:53 2023
+127 Begin FSDB profile info:
+128 FSDB Writer : bc1(8841) bcn(19844) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.009059) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+129 End FSDB profile info
+130 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:1
+131                        ProduceTime:0.179709011 ConsumerTime:0.000000000 Buffer:64MB
+132 SimExit
+133 Sim process exit

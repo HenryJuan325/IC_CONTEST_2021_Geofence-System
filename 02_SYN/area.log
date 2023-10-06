@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : geofence
+Version: R-2020.09
+Date   : Fri Mar 10 19:19:39 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db)
+
+Number of ports:                          340
+Number of nets:                          2362
+Number of cells:                         1757
+Number of combinational cells:           1586
+Number of sequential cells:               158
+Number of macros/black boxes:               0
+Number of buf/inv:                        240
+Number of references:                      61
+
+Combinational area:              18527.121032
+Buf/Inv area:                     1137.257987
+Noncombinational area:            5141.424438
+Macro/Black Box area:                0.000000
+Net Interconnect area:          260214.640564
+
+Total cell area:                 23668.545470
+Total area:                     283883.186034
+1

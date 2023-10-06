@@ -1,0 +1,226 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Mar 15, 2023 at 23:17:22 CST
+irun
+	-f ncvlog.f
+		geofence_syn.v
+		-v /misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+		+define+SDF
+		+ncmaxdelays
+		+debug
+	+nc64bit
+	+loadpli1=lp_pli.so:lp_bootstrap
+	+access+r
+	+neg_tchk
+file: geofence_syn.v
+	module worklib.geofence_DW01_sub_4:v
+		errors: 0, warnings: 0
+	module worklib.geofence_DW01_sub_3:v
+		errors: 0, warnings: 0
+	module worklib.geofence_DW01_sub_2:v
+		errors: 0, warnings: 0
+	module worklib.geofence_DW01_sub_1:v
+		errors: 0, warnings: 0
+	module worklib.geofence_DW_mult_tc_1:v
+		errors: 0, warnings: 0
+	module worklib.geofence_DW_mult_tc_0:v
+		errors: 0, warnings: 0
+	module worklib.geofence_DW01_sub_0:v
+		errors: 0, warnings: 0
+	module worklib.geofence:v
+		errors: 0, warnings: 0
+file: /misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+	module tsmc13_neg.BUFX4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.INVX3:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.INVX12:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.INVX16:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND2X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND2X4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND3XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND3X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI211XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI22X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AO22X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND2X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND3XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3BXL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3BX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI211X4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI32XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CLKBUFX2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CLKAND2X3:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.ADDFX2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFRX2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFRX4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFSX2:v
+		errors: 0, warnings: 0
+*** Registering RTL Compiler Low Power PLI 
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  geofence_DW01_sub_4 sub_59_3 ( .A({1'b0, 1'b0, \A_s[1][9] , \A_s[1][8] , 
+                             |
+ncelab: *W,CUVWSP (./geofence_syn.v,1008|29): 1 output port was not connected:
+ncelab: (./geofence_syn.v,8): CO
+
+  geofence_DW01_sub_3 sub_59 ( .A({1'b0, 1'b0, \A_s[0][9] , \A_s[0][8] , 
+                           |
+ncelab: *W,CUVWSP (./geofence_syn.v,1015|27): 1 output port was not connected:
+ncelab: (./geofence_syn.v,47): CO
+
+  geofence_DW01_sub_2 sub_59_2 ( .A({1'b0, 1'b0, \B_s[1][9] , \B_s[1][8] , 
+                             |
+ncelab: *W,CUVWSP (./geofence_syn.v,1022|29): 1 output port was not connected:
+ncelab: (./geofence_syn.v,86): CO
+
+  geofence_DW01_sub_1 sub_59_4 ( .A({1'b0, 1'b0, \B_s[0][9] , \B_s[0][8] , 
+                             |
+ncelab: *W,CUVWSP (./geofence_syn.v,1029|29): 1 output port was not connected:
+ncelab: (./geofence_syn.v,125): CO
+
+  geofence_DW01_sub_0 sub_59_5 ( .A({N510, N509, N508, N507, N506, N505, N504, 
+                             |
+ncelab: *W,CUVWSP (./geofence_syn.v,1048|29): 1 output port was not connected:
+ncelab: (./geofence_syn.v,764): CO
+
+  DFFRX1 \flag_reg[3]  ( .D(N1522), .CK(clk), .RN(n2597), .Q(flag[3]) );
+                     |
+ncelab: *W,CUVWSP (./geofence_syn.v,1063|21): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \flag_reg[4]  ( .D(N1526), .CK(clk), .RN(n2599), .Q(flag[4]) );
+                     |
+ncelab: *W,CUVWSP (./geofence_syn.v,1064|21): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \flag_reg[0]  ( .D(N1510), .CK(clk), .RN(n2596), .Q(flag[0]) );
+                     |
+ncelab: *W,CUVWSP (./geofence_syn.v,1065|21): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \flag_reg[1]  ( .D(N1514), .CK(clk), .RN(n2598), .Q(flag[1]) );
+                     |
+ncelab: *W,CUVWSP (./geofence_syn.v,1066|21): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \flag_reg[2]  ( .D(N1518), .CK(clk), .RN(n2600), .Q(flag[2]) );
+                     |
+ncelab: *W,CUVWSP (./geofence_syn.v,1067|21): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 is_inside_reg ( .D(N1647), .CK(clk), .RN(n2601), .QN(n2314) );
+                     |
+ncelab: *W,CUVWSP (./geofence_syn.v,1068|21): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 valid_reg ( .D(n470), .CK(clk), .RN(n2601), .QN(n2315) );
+                 |
+ncelab: *W,CUVWSP (./geofence_syn.v,1069|17): 1 output port was not connected:
+ncelab: (/misc/Si2_RAID-1/si2topic/112/spadsp_112/IC_CONTEST/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): Q
+
+	Top level design units:
+		geofence
+	Modules w/wo timescales:
+		timescale of worklib.geofence_DW_mult_tc_1:v = NOTSET
+		timescale of worklib.geofence_DW_mult_tc_0:v = NOTSET
+		timescale of worklib.geofence_DW01_sub_4:v = NOTSET
+		timescale of worklib.geofence_DW01_sub_3:v = NOTSET
+		timescale of worklib.geofence_DW01_sub_2:v = NOTSET
+		timescale of worklib.geofence_DW01_sub_1:v = NOTSET
+		timescale of worklib.geofence_DW01_sub_0:v = NOTSET
+		timescale of worklib.geofence:v = NOTSET
+		timescale of tsmc13_neg.XOR3X1:v = 1ns/1ps
+		timescale of tsmc13_neg.XOR2X1:v = 1ns/1ps
+		timescale of tsmc13_neg.XNOR2X1:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI32XL:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI32X1:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI2BB2XL:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI2BB1X1:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI22XL:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI222XL:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI221XL:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI21XL:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI211X4:v = 1ns/1ps
+		timescale of tsmc13_neg.OAI211X1:v = 1ns/1ps
+		timescale of tsmc13_neg.OA22X1:v = 1ns/1ps
+		timescale of tsmc13_neg.OA21XL:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR3XL:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR3X2:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR3X1:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR3BXL:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR3BX1:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR2XL:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR2X2:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR2X1:v = 1ns/1ps
+		timescale of tsmc13_neg.NOR2BX1:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND4X1:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND3XL:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND3X1:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND3BX1:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND2X2:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND2X1:v = 1ns/1ps
+		timescale of tsmc13_neg.NAND2BX1:v = 1ns/1ps
+		timescale of tsmc13_neg.INVX3:v = 1ns/1ps
+		timescale of tsmc13_neg.INVX16:v = 1ns/1ps
+		timescale of tsmc13_neg.INVX12:v = 1ns/1ps
+		timescale of tsmc13_neg.DFFSX2:v = 1ns/1ps
+		timescale of tsmc13_neg.DFFSX1:v = 1ns/1ps
+		timescale of tsmc13_neg.DFFRX4:v = 1ns/1ps
+		timescale of tsmc13_neg.DFFRX2:v = 1ns/1ps
+		timescale of tsmc13_neg.DFFRX1:v = 1ns/1ps
+		timescale of tsmc13_neg.CMPR42X1:v = 1ns/1ps
+		timescale of tsmc13_neg.CLKINVX1:v = 1ns/1ps
+		timescale of tsmc13_neg.CLKBUFX3:v = 1ns/1ps
+		timescale of tsmc13_neg.CLKBUFX2:v = 1ns/1ps
+		timescale of tsmc13_neg.CLKAND2X3:v = 1ns/1ps
+		timescale of tsmc13_neg.BUFX4:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI31X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI2BB2X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI22X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI222XL:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI221XL:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI21X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI211XL:v = 1ns/1ps
+		timescale of tsmc13_neg.AOI211X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AO22X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AO21X1:v = 1ns/1ps
+		timescale of tsmc13_neg.AND3XL:v = 1ns/1ps
+		timescale of tsmc13_neg.AND3X2:v = 1ns/1ps
+		timescale of tsmc13_neg.AND2X4:v = 1ns/1ps
+		timescale of tsmc13_neg.AND2X2:v = 1ns/1ps
+		timescale of tsmc13_neg.AND2X1:v = 1ns/1ps
+		timescale of tsmc13_neg.ADDHXL:v = 1ns/1ps
+		timescale of tsmc13_neg.ADDFXL:v = 1ns/1ps
+		timescale of tsmc13_neg.ADDFX2:v = 1ns/1ps
+ncelab: *F,CUMSTS: Timescale directive missing on one or more modules.
+irun: *E,ELBERR: Error during elaboration (status 2), exiting.
+TOOL:	irun(64)	15.20-s086: Exiting on Mar 15, 2023 at 23:17:22 CST  (total: 00:00:00)

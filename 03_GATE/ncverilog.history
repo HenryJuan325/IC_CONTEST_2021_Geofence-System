@@ -1,0 +1,9 @@
+s1(10Mar2023:17:22:59):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s2(10Mar2023:17:24:24):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s3(10Mar2023:17:29:12):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s4(10Mar2023:17:31:18):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s5(10Mar2023:17:55:50):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s6(10Mar2023:18:44:57):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s7(15Mar2023:23:16:54):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s8(15Mar2023:23:17:22):  irun -f ncvlog.f +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 
+s9(15Mar2023:23:23:55):  ncverilog -sv tb.sv SME_syn.v +ncmaxdelay +define+SDF +access+r +nc64bit +loadpli1=lp_pli.so:lp_bootstrap +access+r +neg_tchk 

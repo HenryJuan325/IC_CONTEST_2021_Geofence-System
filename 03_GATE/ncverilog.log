@@ -1,0 +1,15 @@
+ncverilog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s086: Started on Mar 15, 2023 at 23:23:55 CST
+ncverilog
+	-sv
+	tb.sv
+	SME_syn.v
+	+ncmaxdelay
+	+define+SDF
+	+access+r
+	+nc64bit
+	+loadpli1=lp_pli.so:lp_bootstrap
+	+access+r
+	+neg_tchk
+ncverilog: *E,FILEMIS: Cannot find the provided file SME_syn.v.
+TOOL:	ncverilog	15.20-s086: Exiting on Mar 15, 2023 at 23:23:55 CST  (total: 00:00:00)

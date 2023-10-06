@@ -1,0 +1,91 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 9 55 1902 981 168 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/misc/Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL/geofence.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 91949.741737 132528.960961
+cursor 130500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 22
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/misc/Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL/geofence.fsdb"
+addSignal -h 15 /testfixture/u_geofence/clk
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -UNSIGNED -UDEC -holdScope X[9:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope Y[9:0]
+addSignal -h 15 -holdScope is_inside
+addSignal -h 15 -holdScope valid
+addGroup "G2"
+addSignal -h 15 /testfixture/u_geofence/cs[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pos_x[6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pos_y[6:0]
+addGroup "G3"
+addSignal -h 15 -UNSIGNED -UDEC /testfixture/u_geofence/cnt[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_sort[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pointer[2:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope flag[4:0]
+addSignal -h 15 -holdScope flag_sum[2:0]
+addGroup "G4"
+addSignal -h 15 -2COMP -UDEC /testfixture/u_geofence/product[19:0]
+addSignal -h 15 -holdScope product[19]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope A[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope B[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope C[1:0]
+addGroup "G5"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/misc/Si2_RAID-1/si2topic/112/spadsp_112/2021_univ_cell/01_RTL/geofence.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/testfixture"
+"/testfixture/u_geofence"
+
+SCOPE_LIST_BEGIN
+"/testfixture"
+"/testfixture/u_geofence"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
